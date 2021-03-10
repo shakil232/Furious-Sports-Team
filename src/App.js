@@ -1,5 +1,5 @@
-
 import './App.css';
+import Header from './Components/Header/Header';
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div >
-     
+      <Header/>
     </div>
   );
 }
