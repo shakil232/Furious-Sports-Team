@@ -1,12 +1,12 @@
 
 .team-display {
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px 5px skyblue;
     margin-top: 30px ;
     text-align: center;
     width: 360px;
     height: 250px;
     padding: 10px;
-    background-color: #E6E6FA;
+    background-color: white;
     border-radius: 8px;
 }
 .team-display img{
@@ -22,7 +22,7 @@
 }
 .detail-btn{
     width: 220px;
-    padding: 5px;
+    padding: 8px;
     border: none;
     background-color: rebeccapurple;
     color: white;
@@ -33,5 +33,5 @@
     cursor: pointer;
 }
 .detail-btn:hover{
-    background-color: green;
+    background-color: orange;
 }

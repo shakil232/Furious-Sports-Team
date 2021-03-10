@@ -1,0 +1,20 @@
+
+.not-found img{
+    width: 25%;
+    height: 250px;
+    margin: 20px 0 0 500px;
+}
+.error{
+    padding: 100px;
+    width: 500px;
+    box-shadow: 5px 5px 10px skyblue;
+    margin: 20px 0 0 400px;
+    text-align: center;
+    font-weight: 900;
+}
+.error h2{
+    color: orangered;
+}
+.error h4{
+    color: orange;
+}

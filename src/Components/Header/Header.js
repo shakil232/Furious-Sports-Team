@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Home from '../Home/Home';
-import banner from '../../images/banner1.jpg'
-import './Header.css'
-
 import './Header.css';
 
 const Header = () => {
@@ -16,9 +13,9 @@ const Header = () => {
     useEffect( loadedData,[])
 
     return (
-        <div className="container">
+        <div className="container header-container">
             <div className="banner">
-               <h1> Furious-Sports-World </h1> 
+               <h1> Furious Sports </h1> 
             </div>
           <div className="team-container">
           {

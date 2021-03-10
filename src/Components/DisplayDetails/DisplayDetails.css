@@ -1,29 +1,28 @@
 
-.container{
-    background-color: #0E0A2A;
+.detail-container {
+    background-color: rebeccapurple;
 }
 .logo{
     background-image: url("../../images/banner.jpg");
     height: 280px;
-    opacity: 0.7;
+    filter: opacity(0.4);
 }
 .logo img{
-    width: 30%;
-    margin-left: 330px;
+    width: 33%;
+    margin-left: 350px;
     padding: 100px;
 }
-.detail-container{
+.details{
     margin-left: 80px;
     border: 1px solid #0E0A2A;
     width: 900px;
     height: 250px;
-    background-color: #3A42FF;
+    background-color: #0E0A2A;
     border-radius: 8px;
     display: flex;
 }
-.details{
-    color: white;
-    font-weight: 600;
+.detail{
+    color: dimgrey;
     margin-left: 10px;
     padding: 5px;
     width: 450px;
@@ -35,24 +34,27 @@
 .gender-condition img{
     width: 80%;
     height: auto;
-    margin: 14px 5px 5px 80px ;
+    margin: 25px 5px 5px 80px ;
 }
 .description{
     margin-left: 80px;
     width: 900px;
-    color: white; 
+    color: whitesmoke; 
 }
 
-.social h2{
-    color: white;
+.connect-area h4{
+    color: whitesmoke;
+}
+.connect-area img{
+   width: 5%;
 }
 .back{
     margin-top: 30px;
-    height: 150px;
+    height: 110px;
 }
 .button{
     width: 220px;
-    padding: 5px;
+    padding: 8px;
     border: none;
     background-color: orange;
     color: black;
@@ -60,14 +62,18 @@
     font-weight: 500;
     transition: 1s;
     margin-right: 5px;
- 
+    cursor: pointer;
 }
 .button:hover{
-    background-color: rebeccapurple;
+    background-color: tomato;
     color: white;
 }
-.icon{
+.button-icon{
     margin: 0 5px 0 5px;
     font-size: 20px;
-    
+}
+.detail-icon{
+    color: goldenrod;
+    margin: 0 5px 0 5px;
+    font-size: 20px;
 }

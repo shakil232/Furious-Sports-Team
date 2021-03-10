@@ -1,12 +1,15 @@
+
+.header-container{
+    background-color:  #0E0A2A;
+}
 .banner{
     background-image: url("../../images/banner2.jpg");
     height: 250px;
-    opacity: 0.8;
 }
 .banner h1{
     color:cyan;
     text-align: center;
-    padding: 190px;
+    padding: 170px;
     font-weight: 600;
 }
 .team-container{
