@@ -1,4 +1,16 @@
-.head-container{
+.banner{
+    background-image: url("../../images/banner2.jpg");
+    height: 250px;
+    opacity: 0.8;
+}
+.banner h1{
+    color:cyan;
+    text-align: center;
+    padding: 190px;
+    font-weight: 600;
+}
+.team-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
 }

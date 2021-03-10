@@ -1,0 +1,36 @@
+
+.team-display {
+    box-shadow: 5px 5px 10px lightgray;
+    margin-top: 30px ;
+    text-align: center;
+    width: 360px;
+    height: 250px;
+    padding: 10px;
+    background-color: #E6E6FA;
+    border-radius: 8px;
+}
+.team-display img{
+    width: 30%;
+    margin-top: 5px;
+}
+.name{
+    color: rebeccapurple;
+    margin-top: 5px;
+}
+.type{
+    color: dimgrey;
+}
+.detail-btn{
+    width: 220px;
+    padding: 5px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 1s;
+    margin-right: 5px;
+}
+.detail-btn:hover{
+    background-color: green;
+}

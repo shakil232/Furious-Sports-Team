@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Home from '../Home/Home';
+import banner from '../../images/banner1.jpg'
+import './Header.css'
 
 import './Header.css';
 
@@ -14,10 +16,15 @@ const Header = () => {
     useEffect( loadedData,[])
 
     return (
-        <div className="head-container">
-           {
+        <div className="container">
+            <div className="banner">
+               <h1> Furious-Sports-World </h1> 
+            </div>
+          <div className="team-container">
+          {
                teams.map( team => <Home team={team}></Home>)
            }
+          </div>
         </div>
     );
 };
