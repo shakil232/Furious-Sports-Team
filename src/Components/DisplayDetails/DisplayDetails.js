@@ -3,12 +3,14 @@ import './DisplayDetails.css';
 import male from '../../images/male.png';
 import female from '../../images/female.png';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons'
 
 const DisplayDetails = (props) => {
    
     const { strLeague, strGender, strTeam, strTeamBadge, strSport, strCountry, intFormedYear, strTwitter, strYoutube, strStadiumDescription } = props.detail
     return (
-        <div className="container back-color">
+        <div className="container">
             <div className="logo">
                 <img src={strTeamBadge} alt="" />
             </div>
@@ -37,9 +39,11 @@ const DisplayDetails = (props) => {
                 {strStadiumDescription}
             </div>
             <div className="social text-center">
-                <h2> social</h2>
-                <div className="back-btn">
-                   <Link to="/header"> <button> home</button> </Link>
+                <h2> Connect Us-</h2>
+                <div className="back">
+                   <Link to="/header"> 
+                   <button className="button"> <FontAwesomeIcon className="icon" icon={faAngleDoubleLeft} /> Home
+                   </button> </Link>
                 </div>
             </div>
    

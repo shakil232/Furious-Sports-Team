@@ -1,5 +1,5 @@
 
-.back-color{
+.container{
     background-color: #0E0A2A;
 }
 .logo{
@@ -26,21 +26,48 @@
     font-weight: 600;
     margin-left: 10px;
     padding: 5px;
-    width: 400px;
+    width: 450px;
+    text-align: justify;
 }
 .gender-condition{
     width: 500px;
-    overflow: 100%;
 }
 .gender-condition img{
-    width: 70%;
-    
+    width: 80%;
+    height: auto;
+    margin: 14px 5px 5px 80px ;
 }
 .description{
     margin-left: 80px;
     width: 900px;
     color: white; 
 }
+
 .social h2{
     color: white;
+}
+.back{
+    margin-top: 30px;
+    height: 150px;
+}
+.button{
+    width: 220px;
+    padding: 5px;
+    border: none;
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 1s;
+    margin-right: 5px;
+ 
+}
+.button:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+.icon{
+    margin: 0 5px 0 5px;
+    font-size: 20px;
+    
 }

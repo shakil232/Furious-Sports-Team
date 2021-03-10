@@ -1,6 +1,8 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import './Home.css'
+import './Home.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSignInAlt} from '@fortawesome/free-solid-svg-icons'
 
 const Home = (props) => {
     const {idTeam, strTeamBadge, strTeam, strSport} = props.team
@@ -19,8 +21,9 @@ const Home = (props) => {
                 <p className="type">Sports Type: {strSport}</p>
                 <button 
                 onClick={()=> handleClick(idTeam)}
-                className="detail-btn"
-                >info</button>
+                className="detail-btn">
+                <FontAwesomeIcon className="icon" icon={faSignInAlt} /> Explore
+                </button>
             </div>
         </div>
     );

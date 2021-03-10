@@ -30,6 +30,7 @@
     font-weight: 500;
     transition: 1s;
     margin-right: 5px;
+    cursor: pointer;
 }
 .detail-btn:hover{
     background-color: green;
