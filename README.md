@@ -1,7 +1,7 @@
-<!-- Project Name -->
+Project Name:-
 Furious-Sports
 
-<!--About website Features  -->
+About website Features:- 
 1.Use theSportsbd Api for load data.
 2.Use React Router .
 3.Dynamiclly Move one page to another page.
@@ -13,5 +13,5 @@ Furious-Sports
 9.Male & female condition are working.
 10.Dynamiclly team logo set in details page banner.   
 
-<!-- Netlify Deploy Link -->
+Netlify Deploy Link:-
 [title](https://path--)
