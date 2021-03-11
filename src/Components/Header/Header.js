@@ -14,21 +14,21 @@ const Header = () => {
 
     return (
         <div className="container header-container">
-            
+
             <div className="row">
-                
-                <div className="banner col-sm-12  " >
+
+                <div className="banner col-sm-12 col-md-12 " >
                     <h1> Furious Sports </h1>
                 </div>
-                <div className="team-container col-sm-12">
-                    {
-                        teams.map(team => <Home team={team} idTeam={team.idTeam}></Home>)
-                    }
-                </div>
-                
 
             </div>
-            
+            <div className="team-container">
+                {
+                    teams.map(team => <Home team={team} idTeam={team.idTeam}></Home>)
+                }
+
+            </div>
+
         </div>
     );
 };

@@ -2,21 +2,17 @@
 .detail-container {
     background-color: rebeccapurple;
 }
-.logo{
+.detail-banner{
     background-image: url("../../images/banner.jpg");
     height: 280px;
     filter: opacity(0.4);
 }
 .logo img{
-    width: 33%;
-    margin-left: 350px;
-    padding: 100px;
+    width: 15%;
+    height: 200px;
 }
 .details{
-    margin-left: 80px;
     border: 1px solid #0E0A2A;
-    width: 900px;
-    height: 250px;
     background-color: #0E0A2A;
     border-radius: 8px;
     display: flex;
@@ -24,60 +20,29 @@
 }
 .detail{
     color: dimgrey;
-    margin-left: 10px;
     padding: 5px;
     width: 450px;
     text-align: justify;
+}
+.detail-icon{
+    color: goldenrod;
+    margin: 0 5px 0 5px;
+    font-size: 20px;
 }
 .gender-condition{
     width: 500px;
 }
 .gender-condition img{
     width: 80%;
-    height: auto;
-    margin: 25px 5px 5px 80px ;
+    margin: 20px 5px 5px 120px ;
 }
 .description{
-    margin-left: 80px;
-    width: 900px;
+    width: 800px;
     color: whitesmoke; 
-    text-align: justify;
 }
 
 .connect-area h4{
     color: whitesmoke;
-}
-.connect-area img{
-   width: 5%;
-}
-.back{
-    margin-top: 30px;
-    height: 110px;
-}
-.button{
-    width: 220px;
-    padding: 8px;
-    border: none;
-    background-color: orange;
-    color: black;
-    border-radius: 8px;
-    font-weight: 500;
-    transition: 1s;
-    margin-right: 5px;
-    cursor: pointer;
-}
-.button:hover{
-    background-color: tomato;
-    color: white;
-}
-.button-icon{
-    margin: 0 5px 0 5px;
-    font-size: 20px;
-}
-.detail-icon{
-    color: goldenrod;
-    margin: 0 5px 0 5px;
-    font-size: 20px;
 }
 .social-icon{
     font-size: 35px;
@@ -97,4 +62,26 @@
 }
 .website{
     color: blue;
+}
+.back{
+    height: 110px;
+}
+.button{
+    width: 250px;
+    padding: 6px;
+    border: none;
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 1s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: tomato;
+    color: white;
+}
+.button-icon{
+    margin: 0 5px 0 5px;
+    font-size: 20px;
 }

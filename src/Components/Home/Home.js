@@ -4,6 +4,7 @@ import './Home.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 
+
 const Home = (props) => {
     const { idTeam, strTeamBadge, strTeam, strSport } = props.team
 
@@ -15,8 +16,8 @@ const Home = (props) => {
 
     return (
         <div className="container">
-            <div className=" row ">
-                <div className="team-display">
+            <div className=" row">
+                <div className="team-display col-sm-12">
                     <img src={strTeamBadge} alt="" />
                     <h4 className="name">{strTeam}</h4>
                     <p className="type">Sports Type: {strSport}</p>
@@ -27,7 +28,7 @@ const Home = (props) => {
                     </button>
                 </div>
             </div>
-           
+          
         </div>
     );
 };

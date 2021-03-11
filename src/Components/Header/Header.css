@@ -1,10 +1,10 @@
 
 .header-container{
-    background-color:  #0E0A2A;
+    background-color:  whitesmoke;
 }
 .banner{
     background-image: url("../../images/banner2.jpg");
-    height: 250px;
+    height: 270px;
 }
 .banner h1{
     color:cyan;
@@ -13,7 +13,7 @@
     font-weight: 600;
 }
 .team-container{
-    display: grid;
+    display: grid; 
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
+     grid-gap: 10px;
 }
