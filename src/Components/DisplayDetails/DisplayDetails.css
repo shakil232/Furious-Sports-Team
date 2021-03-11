@@ -20,6 +20,7 @@
     background-color: #0E0A2A;
     border-radius: 8px;
     display: flex;
+    box-shadow: 5px 5px 5px #0E0A2A;
 }
 .detail{
     color: dimgrey;
@@ -40,6 +41,7 @@
     margin-left: 80px;
     width: 900px;
     color: whitesmoke; 
+    text-align: justify;
 }
 
 .connect-area h4{
@@ -76,4 +78,23 @@
     color: goldenrod;
     margin: 0 5px 0 5px;
     font-size: 20px;
+}
+.social-icon{
+    font-size: 35px;
+    margin-right: 10px;
+}
+.facebook{
+    color: skyblue;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.instagarm{
+    color: blue;
+}
+.youtube{
+    color:#FF0202 ;
+}
+.website{
+    color: blue;
 }

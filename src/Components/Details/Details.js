@@ -17,7 +17,7 @@ const Details = () => {
         <div className="container">
             <div>
                 {
-                    detail.map( detail => <DisplayDetails detail={detail}></DisplayDetails>)
+                    detail.map( detail => <DisplayDetails detail={detail} idTeam={detail.idTeam}></DisplayDetails> )
                 }
             </div>
         </div>

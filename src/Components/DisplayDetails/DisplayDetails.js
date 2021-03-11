@@ -3,15 +3,13 @@ import './DisplayDetails.css';
 import male from '../../images/male.png';
 import female from '../../images/female.png';
 import { Link } from 'react-router-dom';
-import fbIcon from '../../images/Facebook.png';
-import twitterIcon from '../../images/Twitter.png';
-import youtubeIcon from '../../images/YouTube.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleLeft, faMarsStroke,faFutbol, faFlag, faAward, faGamepad, faTrophy} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleLeft, faMarsStroke,faFutbol, faFlag, faAward, faGamepad, faTrophy} from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faYoutube, faTwitter, faInstagram, faInternetExplorer } from '@fortawesome/free-brands-svg-icons'
 
 const DisplayDetails = (props) => {
    
-    const { strLeague, strGender, strTeam, strTeamBadge, strSport, strCountry, intFormedYear, strFacebook, strTwitter, strYoutube, strStadiumDescription } = props.detail
+    const { strLeague, strGender, strTeam, strTeamBadge, strSport, strCountry, intFormedYear, strFacebook, strTwitter, strYoutube, strInstagram, strWebsite, strStadiumDescription, strDescriptionEN } = props.detail
    
     return (
         <div className="container detail-container ">
@@ -39,14 +37,18 @@ const DisplayDetails = (props) => {
 
             <div className=" description mt-4">
                 {strStadiumDescription}
+                <br/><br/>
+                {strDescriptionEN}
             </div>
 
             <div className="social text-center">
                <div className="connect-area mt-5">
                    <h4> Connect Us</h4>
-                   <a href={`https://${strFacebook}`}> <img src={fbIcon} alt="facebook"/> </a>
-                   <a href={`https://${strTwitter}`}> <img src={twitterIcon} alt="twitter"/> </a>
-                   <a href={`https://${strYoutube}`}><img src={youtubeIcon} alt="youtube"/></a>
+                   <a href={`https://${strFacebook}`}> <FontAwesomeIcon className="social-icon facebook" icon={faFacebook} /> </a>
+                   <a href={`https://${strInstagram}`}> <FontAwesomeIcon className="social-icon instagram" icon={faInstagram} /> </a>
+                   <a href={`https://${strTwitter}`}> <FontAwesomeIcon className="social-icon twitter" icon={faTwitter} /> </a>
+                   <a href={`https://${strYoutube}`}> <FontAwesomeIcon className="social-icon youtube" icon={faYoutube} /> </a>
+                   <a href={`https://${strWebsite}`}> <FontAwesomeIcon className="social-icon website" icon={faInternetExplorer} /> </a>
                 </div>
                 <div className="back">
                    <Link to="/header"> 
